@@ -1,6 +1,6 @@
-# Android settings for Cookpad Android Style
+# IDE settings for Cookpad Android Style
 
-This is an Android Studio settings for the Cookpad coding style standard.
+This is an [Android Studio](https://developer.android.com/sdk/index.html) settings for the Cookpad coding style standard.
 
 To introduce this settings, save the `codeStyleSettings.xml` to `.idea/`,
 add `!.ideta/codeStyleSettings.xml` to `.gitignore`,
@@ -12,6 +12,11 @@ curl -L "https://raw.githubusercontent.com/cookpad/android-code-style/master/.id
 # restart Android Studio!
 ```
 
+``gitignore
+# .gitignore
+idea/*
+!.idea/codeStyleSettings.xml
+```
 
 # See Also
 
