@@ -1,0 +1,16 @@
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/*
+!.idea/codeStyleSettings.xml
+
+# Gradle files
+.gradle/
+build/
+
+.DS_Store
+
