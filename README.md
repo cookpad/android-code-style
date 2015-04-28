@@ -12,7 +12,7 @@ curl -L "https://raw.githubusercontent.com/cookpad/android-code-style/master/.id
 # restart Android Studio!
 ```
 
-``gitignore
+```gitignore
 # .gitignore
 idea/*
 !.idea/codeStyleSettings.xml
