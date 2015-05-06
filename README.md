@@ -14,7 +14,7 @@ curl -L "https://raw.githubusercontent.com/cookpad/android-code-style/master/.id
 
 ```gitignore
 # .gitignore
-idea/*
+.idea/*
 !.idea/codeStyleSettings.xml
 ```
 
