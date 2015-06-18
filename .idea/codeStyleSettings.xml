@@ -11,6 +11,7 @@
             <package name="org.mockito.Mockito" withSubpackages="true" static="false" />
             <package name="org.hamcrest.CoreMatchers" withSubpackages="true" static="false" />
             <package name="org.hamcrest.Matchers" withSubpackages="true" static="false" />
+            <package name="org.hamcrest.MatcherAssert" withSubpackages="true" static="false" />
             <package name="org.junit.Assert" withSubpackages="true" static="false" />
           </value>
         </option>
