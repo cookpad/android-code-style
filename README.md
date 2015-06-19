@@ -3,7 +3,7 @@
 This is an [Android Studio](https://developer.android.com/sdk/index.html) settings for the Cookpad coding style standard.
 
 To introduce this settings, save the `codeStyleSettings.xml` to `.idea/`,
-add `!.ideta/codeStyleSettings.xml` to `.gitignore`,
+add `!.idea/codeStyleSettings.xml` to `.gitignore`,
 and restart Android Studio.
 
 ```sh
