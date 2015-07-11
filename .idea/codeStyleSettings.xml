@@ -9,6 +9,7 @@
         <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
           <value>
             <package name="org.mockito.Mockito" withSubpackages="true" static="false" />
+            <package name="org.mockito.Matchers" withSubpackages="true" static="false" />
             <package name="org.hamcrest.CoreMatchers" withSubpackages="true" static="false" />
             <package name="org.hamcrest.Matchers" withSubpackages="true" static="false" />
             <package name="org.hamcrest.MatcherAssert" withSubpackages="true" static="false" />
