@@ -9,7 +9,8 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        >
 
     <TextView
             android:layout_width="wrap_content"
@@ -17,14 +18,16 @@
             android:autoLink="web"
             android:text="GitHub link:\nhttps://github.com/cookpad/android-code-style"
             android:textColor="#424242"
-            android:textColorLink="#1565C0" />
+            android:textColorLink="#1565C0"
+            />
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="To try out the code style in Android Studio, go to:"
-            android:textColor="#424242" />
+            android:textColor="#424242"
+            />
 
     <TextView
             android:layout_width="wrap_content"
@@ -32,14 +35,16 @@
             android:fontFamily="serif-monospace"
             android:text="Code --> Reformat Code"
             android:textColor="#424242"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            />
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Tips: learning the auto-formatting hotkey is very useful, for example, Mac auto-formatting hotkey is:"
-            android:textColor="#424242" />
+            android:textColor="#424242"
+            />
 
     <TextView
             android:layout_width="wrap_content"
@@ -47,13 +52,15 @@
             android:fontFamily="serif-monospace"
             android:text="Command + alt + l"
             android:textColor="#424242"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            />
 
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
 
         <Button
                 android:layout_width="0dp"
@@ -67,7 +74,8 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:text="Android"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                />
 
         <Button
                 android:layout_width="0dp"
@@ -80,6 +88,7 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:text="Like"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                />
     </LinearLayout>
 </LinearLayout>
