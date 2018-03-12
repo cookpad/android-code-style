@@ -18,6 +18,15 @@ curl -L "https://raw.githubusercontent.com/cookpad/android-code-style/master/.id
 !.idea/codeStyleSettings.xml
 ```
 
+If you want to apply this settings for all projects, execute below script and restart Android Studio.
+
+```sh
+# for macOS
+curl -L "https://raw.githubusercontent.com/cookpad/android-code-style/master/ideaPreferences/codestyles/CookpadStyle.xml" > ~/Library/Preferences/AndroidStudio<version>/codestyles/CookpadStyle.xml
+curl -L "https://raw.githubusercontent.com/cookpad/android-code-style/master/ideaPreferences/options/code.style.schemes.xml" > ~/Library/Preferences/AndroidStudio<version>/options/code.style.schemes.xml
+# restart Android Studio
+```
+
 # See Also
 
 * https://github.com/cookpad/styleguide
